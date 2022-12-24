@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "awesome travels",
+    "slug": "awesome-travels",
+    "description": "get ready to see the amazing part of the world you can travel to.....",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/restaurants.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/restaurants.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/970e7f2c-7653-4713-9f6e-a770ab45f7ab"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theamazingjosh.awesometravels"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.theamazingjosh.awesometravels"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "970e7f2c-7653-4713-9f6e-a770ab45f7ab"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
